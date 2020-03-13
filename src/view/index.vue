@@ -26,7 +26,7 @@
 import Top from "_c/common/Top";
 import Search from "_c/common/Search";
 import Moment from "_c/common/Moment";
-import { queryRecommendList } from "@/api/api";
+import { movieWeekly } from "@/api/api";
 export default {
   name: "Index",
   components: {
@@ -44,7 +44,10 @@ export default {
   },
   methods: {
     queryRecommendList() {
-      queryRecommendList().then(res => {
+      // queryRecommendList().then(res => {
+      //   console.log(res);
+      // });
+      movieWeekly().then(res => {
         console.log(res);
       });
     }

@@ -3,7 +3,7 @@ import {
   mockRecommend
 } from '@/api/data'
 
-const domain = 'http://mockjs.com/api'
+const domain = 'https://douban.uieee.com//v2'
 
 Mock.mock(`${domain}/recommendList`, mockRecommend)
 

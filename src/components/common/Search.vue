@@ -50,7 +50,7 @@ export default {
 }
 .search input {
   padding-left: 30px;
-  padding-right: 20px;
+  padding-right: 25px;
   background-color: #f5f5f5;
 }
 </style>

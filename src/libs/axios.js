@@ -4,7 +4,7 @@ import {
     Toast
 } from 'mint-ui'
 let instance = axios.create({
-    baseURL: 'http://mockjs.com/api',
+    baseURL: 'https://douban.uieee.com/v2',
     timeout: 1000 * 10,
     withCredentials: true,
     paramsSerializer: params => {
